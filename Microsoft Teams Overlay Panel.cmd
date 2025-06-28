@@ -1,0 +1,1 @@
+powershell "Add-Type -AssemblyName System.Windows.Forms;$mainForm = New-Object System.Windows.Forms.Form;$mainForm.Text = 'Stretch this dialog over area you do not want to see.';$mainForm.TopMost = $true;[System.Windows.Forms.Application]::Run($mainForm)"
